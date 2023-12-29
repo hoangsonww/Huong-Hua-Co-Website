@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
     transition: all .2s linear;
     text-decoration: none;
 }
@@ -92,7 +91,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #002e5f;
 }
 
 .header{
@@ -147,7 +146,7 @@ body{
     display: none;
 }
 
-.home{
+.home {
     min-height: 100vh;
     width: 100vw;
     background-image: url(../images/img1.jpg);
@@ -160,6 +159,16 @@ body{
     padding: 0 1rem;
     position: relative;
     overflow: hidden !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(55, 55, 55, 0.5);
+    z-index: 1;
 }
 
 .home h1{
@@ -251,6 +260,16 @@ body{
     line-height: 28px;
     text-align: center;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100%;
+}
+
 .item{
     background:#fff;
     text-align: center;
@@ -386,7 +405,7 @@ body{
     margin-bottom: 30px;
     border: 1px solid rgba(0,0,0,0.07);
     -webkit-transition:all 0.7s ease 0s;
-    transition:all 0.7 ease 0s;
+    transition: all 0.7 ease 0s;
 
 }
 .item:hover{
@@ -418,6 +437,8 @@ body{
     height:90px;
     line-height: 96px;
     border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .item .feature_box_col_one{
     background:rgba(247,198,5,0.2);
@@ -512,7 +533,6 @@ body{
 .testimonials .testimonial-text h4 {
     font-size: 12px;
     font-weight: 300;
-    text-transform: uppercase;
 }
 
 .testimonials .testimonial-text p {
@@ -881,7 +901,6 @@ body{
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
     margin-bottom: 20px;
@@ -984,7 +1003,7 @@ body{
 .back-to-top {
     position: fixed;
     display: none;
-    background-color: #00bfff;
+    background-color: #002e5f;
     color: #ffffff;
     width: 45px;
     height: 45px;
@@ -995,14 +1014,15 @@ body{
     bottom: 15px;
     transition: background 0.3s;
     z-index: 9;
+    border-radius: 8px;
 }
 
 .back-to-top i {
     color: #ffffff;
 }
 
-.back-to-top i:hover {
-    color: black;
+.back-to-top:hover {
+    background-color: #00bfff;
 }
 
 .faq{
@@ -1033,12 +1053,17 @@ body{
 }
 
 .faq .row .accordion-container .accordion .accordion-header{
-    background-color: #00bfff;
+    background-color: #002e5f;
     margin: 1rem 0;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
     cursor: pointer;
     margin-left: 1rem;
     margin-right: 2rem;
+    color: white;
+}
+
+.faq .row .accordion-container .accordion .accordion-header:hover{
+    background-color: #00bfff;
 }
 
 .faq .row .accordion-container .accordion .accordion-header span{

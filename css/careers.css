@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
     transition: all .2s linear;
     text-decoration: none;
 }
@@ -319,7 +318,6 @@ body{
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
     margin-bottom: 20px;
@@ -412,7 +410,7 @@ body{
 .back-to-top {
     position: fixed;
     display: none;
-    background-color: #00bfff;
+    background-color: #002e5f;
     color: #ffffff;
     width: 45px;
     height: 45px;
@@ -423,14 +421,15 @@ body{
     bottom: 15px;
     transition: background 0.3s;
     z-index: 9;
+    border-radius: 8px;
 }
 
 .back-to-top i {
     color: #ffffff;
 }
 
-.back-to-top i:hover {
-    color: black;
+.back-to-top:hover {
+    background-color: #00bfff;
 }
 
 @media (min-width: 768px) {

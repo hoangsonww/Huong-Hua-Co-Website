@@ -1,0 +1,21 @@
+Django==3.2.5
+Flask==2.0.1
+
+# Django dependencies
+asgiref==3.4.1
+pytz==2021.1
+sqlparse==0.4.1
+
+# Flask dependencies
+Werkzeug==2.0.1
+Jinja2==3.0.1
+itsdangerous==2.0.1
+click==8.0.1
+
+# Database drivers
+psycopg2==2.9.1  # For PostgreSQL
+mysqlclient==2.0.3  # For MySQL
+
+# Other common dependencies
+gunicorn==20.1.0
+requests==2.25.1
