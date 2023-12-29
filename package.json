@@ -1,0 +1,33 @@
+{
+  "name": "huong-hua-co-ltd-website",
+  "version": "1.0.0",
+  "description": "A website for Huong Hua Co. Ltd. specializing in bathroom solutions",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "vue-cli-service serve",
+    "build-vue": "vue-cli-service build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoangsonww/Huong-Hua-Co-Ltd.git"
+  },
+  "author": "Son Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "react-scripts": "4.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/hoangsonww/Huong-Hua-Co-Ltd/issues"
+  },
+  "homepage": "https://github.com/hoangsonww/Huong-Hua-Co-Ltd#readme"
+}

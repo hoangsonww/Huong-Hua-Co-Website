@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  django:
+    build: ../backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_HOST=db
+
+  flask:
+    build: ../backend
+    ports:
+      - "5000:5000"
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: 'your_db_name'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"

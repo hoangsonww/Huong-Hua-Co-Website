@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "14"
+
+cache:
+  directories:
+    - "node_modules"
+
+services:
+  - mongodb
+  - redis-server
+  - mysql
+  - postgresql
+  - docker
+
+env:
+  - NODE_ENV=test
+
+before_script:
+  - npm install
+
+script:
+  - npm test
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
