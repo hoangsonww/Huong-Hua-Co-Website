@@ -637,6 +637,7 @@ body{
         margin-bottom: .5rem;
         width: 15rem;
         box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+        color: black;
     }
     .career-form-btn:hover{
         letter-spacing: .1rem;
