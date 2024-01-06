@@ -841,7 +841,7 @@ body{
     outline: none;
     border: none;
     border-radius: 5rem;
-    background: white;
+    background: #002e5f;
     border-style: groove;
     border-color: #002e5f;
     font-size: 1.5rem;
@@ -854,7 +854,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #002e5f;
+    background: #00bfff;
 }
 .contact-form-phone
 {
@@ -987,10 +987,8 @@ body{
 }
 
 .footer .footer-top .footer-newsletter input[type="submit"]:hover {
-    color: #ffffff;
     background: #00bfff;
-    border: 1px solid #00bfff;
-    letter-spacing: .2rem;
+    color: #ffffff;
 }
 
 .footer .footer-top .footer-newsletter p {
@@ -1149,6 +1147,7 @@ body{
         background-color: white;
         z-index: 1000;
         border-top: .1rem solid rgba(0,0,0,.3);
+        transition: .5s;
     }
 
     .header .navbar ul{
@@ -1334,29 +1333,6 @@ body{
     {
         color: #aaa;
         font-size: 1.5rem;
-    }
-
-    .contact-form-btn
-    {
-        margin-left: 2rem;
-        outline: none;
-        border: none;
-        border-radius: 5rem;
-        background: white;
-        border-style: groove;
-        border-color: #002e5f;
-        font-size: 1.5rem;
-        cursor: pointer;
-        height: 3.5rem;
-        width: 12rem;
-        box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
-        color: black;
-    }
-    .contact-form-btn:hover{
-        letter-spacing: .1rem;
-        opacity: .9;
-        color: white;
-        background: #002e5f;
     }
     .contact-form-phone
     {
