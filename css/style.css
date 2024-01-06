@@ -11,6 +11,7 @@
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body{
@@ -214,7 +215,7 @@ body{
 }
 
 .about{
-    height: 30vh;
+    min-height: 40vh;
     width: 100vw;
     top: -3rem;
     text-align: center;
@@ -1176,7 +1177,7 @@ body{
     }
 
     .about{
-        min-height: 38vh;
+        min-height: 50vh;
         width: 100vw;
         margin-top: -3rem;
         margin-bottom: -2rem;
