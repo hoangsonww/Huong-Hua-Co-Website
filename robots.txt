@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hoangsonww.github.io/Huong-Hua-Co-Ltd/sitemap.xml

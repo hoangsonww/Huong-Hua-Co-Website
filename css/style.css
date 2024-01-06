@@ -214,7 +214,7 @@ body{
 }
 
 .about{
-    min-height: 55vh;
+    height: 30vh;
     width: 100vw;
     top: -3rem;
     text-align: center;
@@ -1200,14 +1200,15 @@ body{
     }
 
     .about .row .content h3{
-        font-size: 2rem;
+        font-size: 22px;
         color: var(--color);
     }
 
     .about .row .content p{
-        font-size: 1.3rem;
+        font-size: 16px;
         color: #333;
         padding: 1rem 0;
+        line-height: 30px;
     }
 
     .clients {
