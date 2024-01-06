@@ -89,5 +89,3 @@ Contributions to the website are welcome. Please adhere to the following guideli
 For support, contact info@huonghuaco.vn or open an issue in the GitHub repository.
 
 ---
-
-This README provides a comprehensive guide to the Huong Hua Co. Ltd. website, ensuring that developers and contributors have a clear understanding of the project's scope and structure.

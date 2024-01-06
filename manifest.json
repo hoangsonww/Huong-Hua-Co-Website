@@ -1,0 +1,23 @@
+{
+  "short_name": "Huong Hua Co Ltd",
+  "name": "Huong Hua Co., Ltd. - Innovative Bathroom Solutions",
+  "icons": [
+    {
+      "src": "images/image-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/image-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#002e5f",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#002e5f",
+  "description": "Huong Hua Co., Ltd. - Pioneers in providing innovative and high-quality bathroom solutions.",
+  "orientation": "portrait"
+}

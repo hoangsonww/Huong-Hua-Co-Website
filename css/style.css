@@ -297,6 +297,10 @@ body{
 }
 .item h6{
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.item p {
+    font-family: 'Poppins', sans-serif;
 }
 .item:hover h6,
 .item:hover p{
@@ -396,25 +400,24 @@ body{
     line-height: 28px;
     text-align: center;
 }
+
 .item{
-    background:#fff;
+    background: #fff;
     text-align: center;
-    padding:30px 25px;
+    padding: 30px 25px;
     box-shadow: 0 0 25px rgba(0,0,0,0.07);
     border-radius: 20px;
     margin-bottom: 30px;
     border: 1px solid rgba(0,0,0,0.07);
     -webkit-transition:all 0.7s ease 0s;
     transition: all 0.7 ease 0s;
-
 }
 .item:hover{
-    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
-    background-position: right;
-    transition: background-position 3s;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
-    -webkit-transition:all 0.5s ease 0s;
-    transition:all 0.7s ease 0s;
+    background-color: #002e5f;
+    color: white;
+}
+.item:hover p {
+    color: white;
 }
 .item:hover .item,
 .item:hover span.icon{
@@ -423,9 +426,11 @@ body{
     -webkit-transition:all 0.5s ease 0s;
     transition:all 0.5s ease 0s;
 }
+.item:hover h6 {
+    color: white;
+}
 .item:hover h6,
 .item:hover p{
-    color:#2b6777;
     -webkit-transition:all 0.5s ease 0s;
     transition:all 0.5s ease 0s;
 }
@@ -1123,7 +1128,7 @@ body{
     }
 
     .header .fa-bars:hover{
-        color: #00bfff;
+        color: #ffffff;
     }
 
     .header .navbar{
@@ -1157,7 +1162,7 @@ body{
     }
 
     .header .nav-toggle{
-        top: 5.8rem;
+        top: 7.5rem;
     }
 
     .home h1{

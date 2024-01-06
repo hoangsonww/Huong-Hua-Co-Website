@@ -461,7 +461,7 @@ body{
     }
 
     .header .fa-bars:hover{
-        color: #00bfff;
+        color: #ffffff;
     }
 
     .header .navbar{
@@ -495,7 +495,7 @@ body{
     }
 
     .header .nav-toggle{
-        top: 5.8rem;
+        top: 7.5rem;
     }
 
     .home{

@@ -17,11 +17,14 @@
     <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="manifest" href="../manifest.json">
     <script src="../js/main.js"></script>
+    <meta name="theme-color" content="#002e5f">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
 <header class="header" style="z-index: 1001">
-    <a href="../index.html" style="border-radius: 8px" class="logo"><img src="../images/image.png" alt="Company Logo" style="width: 150px; height: 45px"></a>
+    <a href="../index.html" style="border-radius: 8px" class="logo"><img src="../images/image.png" alt="Company Logo" style="width: 150px; height: 45px; border-radius: 4px"></a>
     <div class="fas fa-bars"></div>
     <nav class="navbar">
         <ul>
@@ -95,14 +98,14 @@
 
             <div class="file">
                 <h2 class="name">Upload Your Resume</h2>
-                <input type="file" name="resume" accept=".doc,.docx,.pdf" required><br><br><br>
+                <input style="font-size: 14px" type="file" name="resume" accept=".doc,.docx,.pdf" required><br><br><br>
             </div>
 
             <input type="hidden" name="_subject" value="New Career Inquiry!">
 
             <div class="file">
                 <h2 class="name">How Did You Hear About Us?</h2>
-                <select name="hear_about_us" class="career-form-select" required style="border-radius: 8px; height: 14px">
+                <select name="hear_about_us" class="career-form-select" required style="border-radius: 8px; height: 21px; font-size: 14px">
                     <option value="Google">Google</option>
                     <option value="Facebook">Facebook</option>
                     <option value="Instagram">Instagram</option>
