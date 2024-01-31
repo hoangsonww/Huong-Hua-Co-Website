@@ -13,5 +13,6 @@
     <orderEntry type="library" name="ionicons" level="application" />
     <orderEntry type="library" name="twitter-bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="jquery-3.5.1.slim" level="application" />
   </component>
 </module>
