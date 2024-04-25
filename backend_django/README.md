@@ -27,7 +27,7 @@ Steps to install dependencies and set up the project:
 git clone https://github.com/hoangsonww/Huong-Hua-Co-Ltd.git
 
 # Navigate to the project directory
-cd backend_django
+cd django_root
 
 # Install dependencies
 npm install
