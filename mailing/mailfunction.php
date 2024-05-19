@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
-require('./vendor/autoload.php');
+require './vendor/autoload.php';
 require 'mailingvariables.php';
 
 function mailfunction($mail_reciever_email, $mail_reciever_name, $mail_msg, $attachment = false){

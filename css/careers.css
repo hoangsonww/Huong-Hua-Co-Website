@@ -27,7 +27,6 @@ body{
     top: 0;
     left: 0;
     z-index: 100;
-    position: fixed;
 }
 
 .header .logo img{
@@ -239,7 +238,6 @@ body{
 {
     margin-left: 2rem;
     outline: none;
-    border: none;
     border-radius: 5rem;
     background: #002e5f;
     border-style: groove;
@@ -376,7 +374,6 @@ body{
 }
 
 .footer .footer-top .footer-newsletter input[type="submit"] {
-    border: 0;
     width: 40%;
     padding: 6px 0;
     text-align: center;

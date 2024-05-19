@@ -55,7 +55,6 @@ body{
 
 .row .btn{
     outline: none;
-    border: none;
     border-radius: 5rem;
     background: white;
     border-style: groove;
@@ -69,7 +68,6 @@ body{
 
 .communicate .btn{
     outline: none;
-    border: none;
     border-radius: 5rem;
     background: white;
     border-style: groove;
@@ -109,7 +107,6 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 1rem 2rem;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
@@ -590,7 +587,6 @@ body{
 }
 
 .clients .section-header p {
-    padding-bottom: 10px;
     margin-top: 2.5rem;
     text-align: center;
     font-size: 2rem;
@@ -694,7 +690,6 @@ body{
 
 .team .row .card .info .icons a{
     margin-top: 4rem;
-    padding-top: 0 1rem;
     font-size: 2rem;
     color: #333;
     align-items: center;
@@ -976,7 +971,6 @@ body{
 }
 
 .footer .footer-top .footer-newsletter input[type="submit"] {
-    border: 0;
     width: 40%;
     padding: 6px 0;
     text-align: center;
