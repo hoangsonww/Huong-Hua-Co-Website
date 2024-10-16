@@ -99,6 +99,7 @@ Huong Hua Co. Ltd. is dedicated to delivering top-quality bathroom solutions, ra
 - MongoDB: For storing client testimonials and job applications.
 - MySQL: For storing user data and website analytics.
 - MailChimp: For newsletter subscription and email marketing.
+- Formspree: For form submission handling.
 - Docker: For containerization and deployment.
 - Nginx: For web server configuration and load balancing.
 - AWS EC2, RDS, DocumentDB, S3, Gateway, CloudFront, and Route 53: For deployment, hosting, and cloud services.
@@ -126,7 +127,8 @@ To set up the website locally, follow these steps:
 2. **Navigate to the Project Directory:**
    - `cd huong-hua-co-ltd-website`
 3. **Open the HTML Files:**
-   - Use any web browser to open HTML files.
+   - Run `npm install` to install the dependencies.
+   - Run `npm start` to start the development server.
 
 ## Configuration
 
@@ -134,6 +136,7 @@ To set up the website locally, follow these steps:
   - Replace the Formspree endpoint URLs in the contact and career forms with your unique Formspree URL.
 - **Google Maps API:**
   - Update the iframe source with your Google Maps API key for accurate location mapping.
+- No other configuration is required for the frontend. The full backend setup is not included in this repository.
 
 ## Contributing
 
