@@ -138,6 +138,10 @@ To set up the website locally, follow these steps:
   - Update the iframe source with your Google Maps API key for accurate location mapping.
 - No other configuration is required for the frontend. The full backend setup is not included in this repository.
 
+## Advertisement Notice
+
+The website also contains some ads from Google AdSense. The ads are placed in strategic locations to maximize visibility and engagement. The ads are designed to be non-intrusive and blend seamlessly with the website's design. The revenue generated from the ads helps support the website's maintenance and hosting costs.
+
 ## Contributing
 
 Contributions to the website are welcome. Please adhere to the following guidelines:
