@@ -9,6 +9,7 @@
     "build": "npm run start",
     "test": "http-server -o",
     "serve": "http-server -o",
+    "format": "prettier --write .",
     "build-vue": "vue-cli-service build"
   },
   "repository": {

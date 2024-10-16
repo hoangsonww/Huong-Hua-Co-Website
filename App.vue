@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // Import components here
     send_button: SendButton,
@@ -25,8 +25,8 @@ export default {
     chatbot_header: ChatbotHeader,
     chatbot_body: ChatbotBody,
     chatbot_input: ChatbotInput,
-  }
-}
+  },
+};
 </script>
 
 <style>

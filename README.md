@@ -1,6 +1,8 @@
-# Project README: Huong Hua Co. Ltd. Website
+# Huong Hua Co. Ltd. Website Project
 
-This README provides detailed information about the Huong Hua Co. Ltd. website project. The website is tailored for a company specializing in bathroom equipment design and construction, offering comprehensive insights into the company's services, portfolio, career opportunities, and more.
+This README provides detailed information about the English version of the Huong Hua Co. Ltd. website. The website is tailored for a company in HCMC, Vietnam specializing in bathroom equipment design and construction, offering comprehensive insights into the company's services, portfolio, career opportunities, and more.
+
+It is designed to help the company expand its online presence, attract new (and foreign) clients, and showcase its expertise in bathroom solutions. The website features a clean, modern design with a user-friendly interface, making it easy for visitors to navigate and explore the company's offerings.
 
 ## Table of Contents
 
@@ -38,41 +40,51 @@ Huong Hua Co. Ltd. is dedicated to delivering top-quality bathroom solutions, ra
 ## Features
 
 ### 1. Home Page
+
 - Introduction to Huong Hua Co. Ltd.
 - Quick navigation links to various sections of the website.
 
 ### 2. About Us
+
 - Details about the company's history, mission, and values.
 - Overview of the company's specializations in bathroom solutions.
 
 ### 3. Services
+
 - Detailed descriptions of services offered, such as bathroom design, installation, and renovation.
 - Custom content aligning with the company's expertise in bathroom solutions.
 
 ### 4. Portfolio
+
 - Showcase of completed projects.
 - Images and descriptions of various bathroom designs and constructions.
 
 ### 5. Team
+
 - Information about the key team members.
 - Profiles of designers, project managers, and other crucial staff.
 
 ### 6. Career
+
 - Current job openings and a form for potential candidates to apply.
 - Integration with Formspree for form submission handling.
 
 ### 7. Contact
+
 - Contact information and a form for inquiries, integrated with Formspree.
 - Embedded Google Map showing the location of the company.
 
 ### 8. FAQ
+
 - Answers to frequently asked questions about services, pricing, project timelines, etc.
 
 ### 9. Client Testimonials
+
 - Feedback and reviews from past clients.
 - Reflects the company's commitment to quality and customer satisfaction.
 
 ### 10. Footer
+
 - Additional navigation links.
 - Social media links and contact information.
 
@@ -110,18 +122,18 @@ The website is live at [Huong Hua Co. Ltd.](https://www.huonghuacoltd.com/). It 
 To set up the website locally, follow these steps:
 
 1. **Clone the Repository:**
-    - Use `git clone https://github.com/hoangsonww/Huong-Hua-Co-Website.git` to clone the repository.
+   - Use `git clone https://github.com/hoangsonww/Huong-Hua-Co-Website.git` to clone the repository.
 2. **Navigate to the Project Directory:**
-    - `cd huong-hua-co-ltd-website`
+   - `cd huong-hua-co-ltd-website`
 3. **Open the HTML Files:**
-    - Use any web browser to open HTML files.
+   - Use any web browser to open HTML files.
 
 ## Configuration
 
 - **Formspree Setup:**
-    - Replace the Formspree endpoint URLs in the contact and career forms with your unique Formspree URL.
+  - Replace the Formspree endpoint URLs in the contact and career forms with your unique Formspree URL.
 - **Google Maps API:**
-    - Update the iframe source with your Google Maps API key for accurate location mapping.
+  - Update the iframe source with your Google Maps API key for accurate location mapping.
 
 ## Contributing
 

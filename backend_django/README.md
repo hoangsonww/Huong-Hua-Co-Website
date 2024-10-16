@@ -3,9 +3,11 @@
 ---
 
 ## Overview
+
 This directory contains the backend code for Huong Hua Co., Ltd.'s official website. The backend is responsible for handling business logic, database interactions, and API endpoints to support the frontend of the website.
 
 ## Technology Stack
+
 - **Language/Framework**: Python 3.8, Django 3.1
 - **Database**: MySQL 8.0, SQLite 3.31, Apache Cassandra 3.11
 - **API Documentation**: [Swagger](https://swagger.io/)
@@ -15,11 +17,14 @@ This directory contains the backend code for Huong Hua Co., Ltd.'s official webs
 ## Getting Started
 
 ### Prerequisites
+
 Here is the list of prerequisites to run the backend locally:
+
 - Node.js v12 or above
 - MySQL server running locally or remotely
 
 ### Installation
+
 Steps to install dependencies and set up the project:
 
 ```bash
@@ -35,6 +40,7 @@ pip install
 ```
 
 ### Running Locally
+
 Instructions on how to run the backend server locally:
 
 ```bash
@@ -43,6 +49,7 @@ npm start
 ```
 
 ### Testing
+
 How to run tests for the backend:
 
 ```bash
@@ -51,10 +58,13 @@ npm test
 ```
 
 ## Deployment
+
 Instructions for deploying the backend to a production environment.
 
 ## Contributing
+
 Here are some guidelines for contributing to the project:
+
 - Create a new branch for each feature/bug fix.
 - Commit messages should be in the present tense and descriptive.
 - Pull requests should be made to the `master` branch.
@@ -64,6 +74,7 @@ Here are some guidelines for contributing to the project:
 - If you have any suggestions or feedback, please open an issue or reach out to the maintainers.
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
